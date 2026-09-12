@@ -47,11 +47,13 @@ class Program
             }
             else if (tentativa < numeroSecreto)
             {
+                Console.WriteLine();
                 Console.WriteLine("Você errou!");
                 Console.WriteLine("O número secreto é maior.");
             }
             else
             {
+                Console.WriteLine();
                 Console.WriteLine("Você errou!");
                 Console.WriteLine("O número secreto é menor.");
             }
