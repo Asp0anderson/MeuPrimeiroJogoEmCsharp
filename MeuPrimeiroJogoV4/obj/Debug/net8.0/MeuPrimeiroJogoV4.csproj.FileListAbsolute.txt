@@ -1,0 +1,15 @@
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\bin\Debug\net8.0\MeuPrimeiroJogoV4.exe
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\bin\Debug\net8.0\MeuPrimeiroJogoV4.deps.json
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\bin\Debug\net8.0\MeuPrimeiroJogoV4.runtimeconfig.json
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\bin\Debug\net8.0\MeuPrimeiroJogoV4.dll
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\bin\Debug\net8.0\MeuPrimeiroJogoV4.pdb
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.AssemblyInfoInputs.cache
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.AssemblyInfo.cs
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.csproj.CoreCompileInputs.cache
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.sourcelink.json
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.dll
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\refint\MeuPrimeiroJogoV4.dll
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.pdb
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\MeuPrimeiroJogoV4.genruntimeconfig.cache
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogoV4\obj\Debug\net8.0\ref\MeuPrimeiroJogoV4.dll

@@ -1,51 +1,68 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
+using System;
 
-using System; // Permite usar Console e Random.
-
-class Program // Declara a classe principal do programa.
+class Program
 {
-    static void Main() // Define o ponto de início do programa.
+    static void Main()
     {
-        Random sorteador = new Random(); // Cria um objeto capaz de sortear números.
+        /* Pré-Requisitos do Sistema */
+        //  Váriáveis e Atribuição de valor
 
-        int numeroSecreto = sorteador.Next(1, 11); // Sorteia um número entre 1 e 10.
+        Random sorteador = new Random();
+
+        int numeroMenor = 10;
+        int numeroMaior = 20;
+
+        int numeroSecreto = sorteador.Next(numeroMenor, numeroMaior); // Sorteia um número entre o valor da variável numeroMenor e a variável numeroMaior..
         int tentativa = 0; // Guarda a tentativa atual do jogador.
         int quantidadeTentativas = 0; // Conta quantas tentativas foram feitas.
         bool acertou = false; // Indica se o jogador acertou o número.
 
+        /* Apresentação */
+
         Console.WriteLine("=== Jogo de Adivinhação ==="); // Exibe o título do jogo.
-        Console.WriteLine("Tente descobrir o número secreto entre 1 e 10."); // Explica o objetivo.
+        Console.WriteLine($"Tente descobrir o número secreto entre {numeroMenor} e {numeroMaior}."); // Explica o objetivo.
+        Console.WriteLine("Pressione a tecla ENTER para continuar.");
+        Console.ReadKey();
 
-        while (!acertou) // Continua repetindo enquanto o jogador não acertar.
+        /* Entrada e Processamento de dados */
+
+        while (!acertou)
         {
-            Console.Write("Digite sua tentativa: "); // Solicita um número ao jogador.
+            Console.WriteLine();
+            Console.WriteLine("Digite sua tentativa: ");
 
-            tentativa = int.Parse(Console.ReadLine() ?? "0"); // Lê e converte a resposta para int.
+            tentativa = int.Parse(Console.ReadLine() ?? "0");
 
             quantidadeTentativas++; // Aumenta a quantidade de tentativas em 1.
 
-            if (tentativa == numeroSecreto) // Verifica se a tentativa é igual ao número secreto.
+            if (tentativa == numeroSecreto)
             {
-                acertou = true; // Informa ao programa que o jogador acertou.
-
-                Console.WriteLine(
-                    $"Parabéns! Você acertou em {quantidadeTentativas} tentativa(s)."
-                ); // Exibe a mensagem de vitória.
+                acertou = true;
+                Console.WriteLine();
+                Console.WriteLine($"Parabéns! Você acertou em {quantidadeTentativas} tentativa(s).");
+                Console.WriteLine($"O número secreto é {numeroSecreto} .");
             }
-            else if (tentativa < numeroSecreto) // Verifica se a tentativa foi menor que o número secreto.
+            else if (tentativa < numeroSecreto)
             {
-                Console.WriteLine("O número secreto é maior."); // Dá uma dica ao jogador.
+                Console.WriteLine("O número secreto é maior.");
             }
-            else // Executa quando a tentativa foi maior que o número secreto.
+            else
             {
-                Console.WriteLine("O número secreto é menor."); // Dá outra dica ao jogador.
+                Console.WriteLine("O número secreto é menor.");
             }
         }
 
-        Console.WriteLine("Fim do jogo!"); // Informa que o jogo terminou.
+        /* Saída de dados */
 
-        Console.ReadKey(); // Aguarda uma tecla antes de fechar a janela.
+        Console.WriteLine();
+        Console.WriteLine("Fim de Jogo");
+        Console.WriteLine("Pressione a tecla ENTER para encerrar.");
+
+        /* Fim do programa */
+
+        Console.ReadKey();
     }
 }
