@@ -12,7 +12,7 @@ class Program
 
         Random sorteador = new Random();
 
-        int numeroMenor = 10;
+        int numeroMenor = 1;
         int numeroMaior = 20;
 
         int numeroSecreto = sorteador.Next(numeroMenor, numeroMaior); // Sorteia um número entre o valor da variável numeroMenor e a variável numeroMaior..
@@ -43,14 +43,16 @@ class Program
                 acertou = true;
                 Console.WriteLine();
                 Console.WriteLine($"Parabéns! Você acertou em {quantidadeTentativas} tentativa(s).");
-                Console.WriteLine($"O número secreto é {numeroSecreto} .");
+                Console.WriteLine($"O número secreto era {numeroSecreto} .");
             }
             else if (tentativa < numeroSecreto)
             {
+                Console.WriteLine("Você errou!");
                 Console.WriteLine("O número secreto é maior.");
             }
             else
             {
+                Console.WriteLine("Você errou!");
                 Console.WriteLine("O número secreto é menor.");
             }
         }
