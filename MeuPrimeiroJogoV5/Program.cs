@@ -8,7 +8,7 @@ class Program
     static void Main()
     {
         // Define o menor número possível.
-        int numeroMenor = 1;
+        int numeroMenor = 2;
 
         // Define o maior número possível.
         int numeroMaior = 20;
