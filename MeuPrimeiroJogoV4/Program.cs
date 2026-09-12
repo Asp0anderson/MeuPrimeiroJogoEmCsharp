@@ -13,7 +13,7 @@ class Program
         Random sorteador = new Random();
 
         int numeroMenor = 1;
-        int numeroMaior = 20;
+        int numeroMaior = 21;
 
         int numeroSecreto = sorteador.Next(numeroMenor, numeroMaior); // Sorteia um número entre o valor da variável numeroMenor e a variável numeroMaior..
         int tentativa = 0; // Guarda a tentativa atual do jogador.
