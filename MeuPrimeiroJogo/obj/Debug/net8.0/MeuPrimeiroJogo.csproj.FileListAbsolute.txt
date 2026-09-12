@@ -1,0 +1,14 @@
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\bin\Debug\net8.0\MeuPrimeiroJogo.exe
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\bin\Debug\net8.0\MeuPrimeiroJogo.deps.json
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\bin\Debug\net8.0\MeuPrimeiroJogo.runtimeconfig.json
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\bin\Debug\net8.0\MeuPrimeiroJogo.dll
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\bin\Debug\net8.0\MeuPrimeiroJogo.pdb
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\MeuPrimeiroJogo.GeneratedMSBuildEditorConfig.editorconfig
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\MeuPrimeiroJogo.AssemblyInfoInputs.cache
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\MeuPrimeiroJogo.AssemblyInfo.cs
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\MeuPrimeiroJogo.csproj.CoreCompileInputs.cache
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\MeuPrimeiroJogo.dll
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\refint\MeuPrimeiroJogo.dll
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\MeuPrimeiroJogo.pdb
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\MeuPrimeiroJogo.genruntimeconfig.cache
+D:\_Bkp\Documentos\MyHub.IA\Projetos\Aprender a desenvolver jogos em C#\MeuPrimeiroJogo\MeuPrimeiroJogo\obj\Debug\net8.0\ref\MeuPrimeiroJogo.dll

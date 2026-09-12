@@ -1,0 +1,46 @@
+﻿// See https://aka.ms/new-console-template for more information
+//Console.WriteLine("Hello, World!");
+
+
+class Program
+{
+    static void Main()
+    {
+        /* Pré-Requisitos do Sistema */
+        //  Váriáveis e Atribuição de valor
+        string nome;
+        string jogoFavorito;
+        byte idade;
+        string plataforma;
+        string msg2 = "Estou começando a programar em C#";
+
+        /* Entrada de dados */
+
+        Console.Write("Qual é o seu nome? ");
+        nome = Console.ReadLine() ?? "";
+
+        Console.Write("Qual é o seu jogo favorito? ");
+        jogoFavorito = Console.ReadLine() ?? "";
+
+        Console.Write("Qual é a idade do Jogador ? ");
+        idade = byte.Parse(Console.ReadLine() ?? "");
+
+        Console.Write("Qual é a plataforma preferida: PC, PlayStation, Xbox ou outra? ");
+        plataforma = Console.ReadLine() ?? "";
+
+        Console.Write("");
+
+        /* Processamento de dados */
+
+        // Sem processamento de dados
+
+        /* Saída de dados */
+
+        Console.WriteLine($"{nome} tem {idade} anos e prefere jogar {jogoFavorito} no {plataforma}.");
+       
+
+        /* Fim do programa */
+
+        Console.ReadKey();
+    }
+}
