@@ -1,139 +1,56 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("Hello, World!");
 
+
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using static MeuPrimeiroJogoV5.Program2;
 
-class Program
+namespace MeuPrimeiroJogoV5
 {
-    static void Main()
+
+    public class Program
     {
-        // Define o menor número possível.
-        int numeroMenor = 2;
-
-        // Define o maior número possível.
-        int numeroMaior = 20;
-
-        // Cria um objeto responsável por sortear números.
-        Random sorteador = new Random();
-
-        // O segundo valor de Next não é incluído.
-        // Por isso usamos numeroMaior + 1 para permitir o número 20.
-        int numeroSecreto = sorteador.Next(numeroMenor, numeroMaior + 1);
-
-        // Guarda a quantidade de tentativas do jogador.
-        int quantidadeTentativas = 0;
-
-        // Mostra o título e as instruções do jogo.
-        MostrarApresentacao(numeroMenor, numeroMaior);
-
-        // Começa o laço principal do jogo.
-        bool acertou = false;
-
-        // Continua repetindo enquanto o jogador não acertar.
-        while (!acertou)
+        static void Main()
         {
-            // Lê uma tentativa válida do jogador.
-            int tentativa = LerTentativa(numeroMenor, numeroMaior);
 
-            // Aumenta o contador de tentativas.
-            quantidadeTentativas++;
+            /* Pré-Requisitos, declarando variáveis e atribuindo valores*/
 
-            // Verifica a tentativa e guarda o resultado.
-            acertou = VerificarTentativa(tentativa, numeroSecreto);
-        }
+            int numeroMenor = 1;
+            int numeroMaior = 20;
+            Random sorteador = new Random();
+            int numeroSecreto = sorteador.Next(numeroMenor, numeroMaior + 1);
+            int quantidadeTentativas = 0;
+            bool acertou = false;
 
-        // Mostra a mensagem final.
-        MostrarFinal(quantidadeTentativas, numeroSecreto);
-    }
 
-    static void MostrarApresentacao(int numeroMenor, int numeroMaior)
-    {
-        // Exibe o título do jogo.
-        Console.WriteLine("=== Jogo de Adivinhação ===");
+            /* Métodos */
+            // 1 - MostrarApresentacao
+            // Mostra o título e as instruções do jogo.
+            MostrarApresentacao(numeroMenor, numeroMaior);
 
-        // Exibe o intervalo de números possíveis.
-        Console.WriteLine(
-            $"Tente descobrir o número secreto entre {numeroMenor} e {numeroMaior}."
-        );
-
-        // Exibe uma instrução para o jogador.
-        Console.WriteLine("Boa sorte!");
-    }
-
-    static int LerTentativa(int numeroMenor, int numeroMaior)
-    {
-        // Declara uma variável para guardar a tentativa.
-        int tentativa;
-
-        // Repete até o jogador digitar um valor válido.
-        while (true)
-        {
-            // Solicita uma tentativa ao jogador.
-            Console.WriteLine();
-            Console.Write($"Digite um número entre {numeroMenor} e {numeroMaior}: ");
-
-            // Lê o texto digitado pelo jogador.
-            string entrada = Console.ReadLine() ?? "";
-
-            // Tenta converter o texto para número.
-            bool entradaValida = int.TryParse(entrada, out tentativa);
-
-            // Verifica se o texto era um número dentro do intervalo.
-            if (entradaValida &&
-                tentativa >= numeroMenor &&
-                tentativa <= numeroMaior)
+            /* Processamento das informações, a execução das regras do jogo.*/
+            // Continua repetindo enquanto o jogador não acertar.
+            while (!acertou)
             {
-                // Retorna a tentativa válida para o método Main.
-                return tentativa;
+                // Uso de Métodos dentro while.
+                // Lê uma tentativa válida do jogador.
+                int tentativa = LerTentativa(numeroMenor, numeroMaior);
+
+                // Aumenta o contador de tentativas.
+                quantidadeTentativas++;
+
+                // Verifica a tentativa e guarda o resultado.
+                acertou = VerificarTentativa(tentativa, numeroSecreto);
             }
 
-            // Mostra uma mensagem quando a entrada é inválida.
-            Console.WriteLine(
-                $"Digite um número inteiro entre {numeroMenor} e {numeroMaior}."
-            );
+            // Mostra a mensagem final.
+            MostrarFinal(quantidadeTentativas, numeroSecreto);
         }
+
     }
 
-    static bool VerificarTentativa(int tentativa, int numeroSecreto)
-    {
-        // Verifica se a tentativa é igual ao número secreto.
-        if (tentativa == numeroSecreto)
-        {
-            // Informa que o jogador acertou.
-            Console.WriteLine("Parabéns! Você acertou!");
-
-            // Retorna true para encerrar o laço principal.
-            return true;
-        }
-
-        // Verifica se o número secreto é maior que a tentativa.
-        if (tentativa < numeroSecreto)
-        {
-            // Dá uma dica ao jogador.
-            Console.WriteLine("Você errou! O número secreto é maior.");
-        }
-        else
-        {
-            // Dá uma dica quando a tentativa foi maior.
-            Console.WriteLine("Você errou! O número secreto é menor.");
-        }
-
-        // Retorna false para continuar o jogo.
-        return false;
-    }
-
-    static void MostrarFinal(int quantidadeTentativas, int numeroSecreto)
-    {
-        // Exibe a quantidade de tentativas usadas.
-        Console.WriteLine();
-        Console.WriteLine(
-            $"Você acertou em {quantidadeTentativas} tentativa(s)."
-        );
-
-        // Exibe o número secreto.
-        Console.WriteLine($"O número secreto era {numeroSecreto}.");
-
-        // Exibe a mensagem de encerramento.
-        Console.WriteLine("Fim de jogo!");
-    }
 }
